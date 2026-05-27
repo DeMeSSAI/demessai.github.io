@@ -87,6 +87,11 @@ sup {
     text-transform: none;
 }
 
+/* Remove top padding when consecutive bg-light sections share the same background */
+#cfp {
+    padding-top: 0;
+}
+
 /* Program section */
 .program-table {
     border-collapse: separate;
